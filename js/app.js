@@ -37,12 +37,6 @@ const lofiList = [
     'https://www.youtube.com/embed/pXuTAd3mTCw?si=mIYQCVq4U-yyVUEK'
 ];
 
-const chillList = [
-    'https://www.youtube.com/embed/XP2aVXSTPQE?si=Jn7BIuX1cvtTQfml',
-    'https://www.youtube.com/embed/hsfScVJgGOw?si=Ut3GFX5WBgcn08Bf',
-    'https://www.youtube.com/embed/8Q3cX7N8ahw?si=E6mfx1O6zADa9xFE'
-];
-
 
 // Function to play a random video from each genre
 function playRandomVideo(genre) {
@@ -75,8 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
         genre = jazzList;
     } else if (selectedGenre === "lofi music") {
         genre = lofiList;
-    } else if (selectedGenre === "chill music") {
-        genre = chillList;
     }
 
     // Button to play a random video from the selected list
