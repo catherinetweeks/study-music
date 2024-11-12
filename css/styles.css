@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.ttf') format('truetype');
+}
+
+.buttonStyle
+{
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.buttonStyle:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+    transform: translateY(-3px);
+}
+
+.titleText
+{
+    color: white;
+    font: "Montserrat", sans-serrif;
+}
+
+
+.randomButton
+{
+    color: white;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
