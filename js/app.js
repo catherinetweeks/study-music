@@ -11,18 +11,14 @@ const upbeatList = [
 ];
 
 const classicalList = [
-    'https://www.youtube.com/embed/7e7eaAD7tus?si=1DxOj7_oCbue20z0',
-    'https://www.youtube.com/embed/YYeHdpdjoeg?si=h0qfw4QkZW7kAbga',
-    'https://www.youtube.com/embed/CyqHICzufP8?si=bAuvzbkt_vEqcvb9',
-    'https://www.youtube.com/embed/pXD2rZHzIns?si=W84-jlNqDT3wajCa'
+    'https://www.youtube.com/embed/6fyn-OqHL70?si=CFc0a5aXXUAFTiS3',
+    'https://www.youtube.com/embed/js6zXgxk0cQ?si=PFUK2sg4UPXMg_eF',
+    'https://www.youtube.com/embed/xm0zT8Sim3c?si=3t0CUeCCWG21DJiN'
 ];
 
 const jazzList = [
-    'https://www.youtube.com/embed/fFrgAHp-OwY?si=2NPGbApcMIGtt6yh',
-    'https://www.youtube.com/embed/VaeUC9DhU2I?si=9ASsCSx7eFVS-pG0',
     'https://www.youtube.com/embed/mesRhn_OWA8?si=NkgvoMYnAqA47EqB',
     'https://www.youtube.com/embed/Llour2YvsiI?si=sG0GwFnQZswQmK_y',
-    'https://www.youtube.com/embed/i3qIAZr-iWU?si=QAH7y6FGZYkiidMa',
     'https://www.youtube.com/embed/tE-zuROmEtA?si=MR-fq94550XTzlhH',
     'https://www.youtube.com/embed/osszvKODeTM?si=gMe75a49g89CkF3A'
 ];
