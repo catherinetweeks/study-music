@@ -1,3 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5px;  
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat.ttf') format('truetype');
@@ -10,6 +25,7 @@
     border: 2px solid white;
     border-radius: 10px;
     color: white;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     cursor: pointer;
     font-size: 1.2rem;
@@ -21,10 +37,20 @@
     transform: translateY(-3px);
 }
 
-.titleText
+.buttonContainer
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.titleText {
+    font-family: "Montserrat", sans-serif;
     color: white;
-    font: "Montserrat", sans-serrif;
+    font-size: 2rem;
+    margin: 0;    
 }
 
 
