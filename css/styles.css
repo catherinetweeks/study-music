@@ -6,12 +6,25 @@ html, body {
 
 .mainContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;       
+    justify-content: center;      /* Changed from flex-start to center */
+    align-items: center;          
+    height: 100vh;
+    gap: 2rem;                    /* Added gap between title and buttons */
+}
+
+.titleContainer {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 5px;  
 }
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;      /* Center the buttons horizontally */
+    gap: 10px;                    /* Adjust space between buttons */
+}
+
 
 @font-face {
     font-family: 'Montserrat';
@@ -37,14 +50,6 @@ html, body {
     transform: translateY(-3px);
 }
 
-.buttonContainer
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 20px;
-}
 
 .titleText {
     font-family: "Montserrat", sans-serif;
