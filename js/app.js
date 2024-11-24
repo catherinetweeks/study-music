@@ -7,13 +7,17 @@ const soothingList = [
 
 const upbeatList = [
     'https://www.youtube.com/embed/inYhcA3ZhzQ?si=zTenfMvWPHdaUjAS',
-    'https://www.youtube.com/embed/8T9rQQwfYgQ?si=7JvGajtkUxw5CdgV'
+    'https://www.youtube.com/embed/ehaHxdVMsbo?si=i_9r5vsK-leBFPVR',
+    'https://www.youtube.com/embed/eoWMzCXBqBw?si=z42nP837oL_LqDkc"',
+    'https://www.youtube.com/embed/fomwC_-FQ70?si=lAquw-_C8BPueYCC"'
 ];
 
 const classicalList = [
     'https://www.youtube.com/embed/6fyn-OqHL70?si=CFc0a5aXXUAFTiS3',
     'https://www.youtube.com/embed/js6zXgxk0cQ?si=PFUK2sg4UPXMg_eF',
-    'https://www.youtube.com/embed/xm0zT8Sim3c?si=3t0CUeCCWG21DJiN'
+    'https://www.youtube.com/embed/xm0zT8Sim3c?si=3t0CUeCCWG21DJiN',
+    'https://www.youtube.com/embed/V0Q1Ed_lO-4?si=npKT5LB4BRqfTJTC',
+    'https://www.youtube.com/embed/-0JMxWcyZlk?si=VDKVv-SUKEqbWY0P'
 ];
 
 const jazzList = [
@@ -24,7 +28,6 @@ const jazzList = [
 ];
 
 const lofiList = [
-    'https://www.youtube.com/embed/yDVuQD-CAvE?si=1XjNJLEesoghUcQd',
     'https://www.youtube.com/embed/XGTIVDt7CfU?si=wYblMhFXhWX0TH-I',
     'https://www.youtube.com/embed/H7uVs7mFmgg?si=7rLWZv42ShJXYXEv',
     'https://www.youtube.com/embed/th8sZnMm9Nw?si=MBkhNRl7u56Q7CY2',

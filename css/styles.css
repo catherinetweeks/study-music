@@ -7,10 +7,10 @@ html, body {
 .mainContainer {
     display: flex;
     flex-direction: column;       
-    justify-content: center;      /* Changed from flex-start to center */
+    justify-content: center;
     align-items: center;          
     height: 100vh;
-    gap: 2rem;                    /* Added gap between title and buttons */
+    gap: 2rem;
 }
 
 .titleContainer {
@@ -21,8 +21,8 @@ html, body {
 
 .buttonContainer {
     display: flex;
-    justify-content: center;      /* Center the buttons horizontally */
-    gap: 10px;                    /* Adjust space between buttons */
+    justify-content: center;
+    gap: 10px;
 }
 
 
