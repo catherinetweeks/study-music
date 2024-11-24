@@ -79,8 +79,22 @@ html, body {
     transform: translateY(-3px);
 }
 
-.videoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.returnButton
+{
+    display: inline-block;
+    padding: 12px 24px;
+    /* border: 2px solid white; */
+    /* border-radius: 10px; */
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+    background:rgba(255, 255, 255, 0)
+}
+.returnButton:hover {
+    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); */
+    transform: translateY(-3px);
 }

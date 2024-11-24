@@ -42,13 +42,18 @@ function playRandomVideo(genre) {
     if (!genre || genre.length === 0) return; // Exit if no genre or genre list is empty
 
     const randomVideo = genre[Math.floor(Math.random() * genre.length)];
-    const videoContainer = document.createElement("div");
-    videoContainer.innerHTML = `<iframe width="560" height="315" src="${randomVideo}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+    const videoContainer = document.getElementById("videoContainer");
 
-    // Remove any existing video and add the new one so user can randomize again
-    const existingVideo = document.querySelector('iframe');
-    if (existingVideo) existingVideo.remove();
-    document.body.appendChild(videoContainer);
+    // Clear any previous video
+    videoContainer.innerHTML = `
+        <iframe 
+            width="784" 
+            height="441" 
+            src="${randomVideo}" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>`;
 }
 
 // Determine the current genre and attach event listener
