@@ -70,7 +70,7 @@ function playRandomVideo(genre) {
 // Determine the current genre and attach event listener
 document.addEventListener("DOMContentLoaded", () => {
     const selectedGenre = document.querySelector("h1").textContent.toLowerCase();
-    const button = document.getElementById("randomize");
+    const randomButton = document.getElementById("randomize");
 
     // Mapping genres to respective lists
     let genre;
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Button to play a random video from the selected list
-    if (button && genre) {
-        button.addEventListener("click", () => playRandomVideo(genre));
+    if (randomButton && genre) {
+        randomButton.addEventListener("click", () => playRandomVideo(genre));
     }
 });
