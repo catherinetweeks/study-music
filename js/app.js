@@ -37,11 +37,22 @@ const lofiList = [
 ];
 
 
+
+let lastPlayedVideo = ''; // Keep track of the last played video
+
 // Function to play a random video from each genre
 function playRandomVideo(genre) {
     if (!genre || genre.length === 0) return; // Exit if no genre or genre list is empty
 
-    const randomVideo = genre[Math.floor(Math.random() * genre.length)];
+    let randomVideo;
+    do {
+        // Select a random video
+        randomVideo = genre[Math.floor(Math.random() * genre.length)];
+    } while (randomVideo === lastPlayedVideo); // Ensure it's not the same as the last played video
+
+    // Update the last played video
+    lastPlayedVideo = randomVideo;
+
     const videoContainer = document.getElementById("videoContainer");
 
     // Clear any previous video
