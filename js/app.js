@@ -3,6 +3,7 @@ const soothingList = [
     'https://www.youtube.com/embed/rqRp0_O4ZaU?si=Kd613A_bkoCyy6xZ',
     'https://www.youtube.com/embed/xFvwf199hPE?si=kyr2nO3CDCV4ZnJr',
     'https://www.youtube.com/embed/6V5XXwsAb-8?si=TEL69BAg5w7Ufu_l',
+    'https://www.youtube.com/embed/j-2GbL1qc_Y?si=EUkEd545mbA19-LD'
 ];
 
 const upbeatList = [
